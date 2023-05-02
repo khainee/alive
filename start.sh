@@ -1,3 +1,3 @@
 pip install -U requests
-python -m http.server &
+echo "Running Web Server" && python -m http.server 80 &
 python alive.py
