@@ -1,3 +1,3 @@
-FROM ubuntu:latest
+FROM python
 COPY . .
 CMD ["bash", "start.sh"]
